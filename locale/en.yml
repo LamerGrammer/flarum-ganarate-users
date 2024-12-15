@@ -1,0 +1,7 @@
+imynely-generate-users:
+  # For more details on the format
+  # Checkout https://docs.flarum.org/extend/i18n/#appendix-a-standard-key-format
+  admin:
+    users_generated: "Successfully generated {count} users!"
+
+  forum:
