@@ -11,7 +11,7 @@
 
 namespace Imynely\GenerateUsers;
 
-use Imynely\GenerateUsers\Api\Controllers\GenerateUsersController\GenerateUsersController;
+use Imynely\GenerateUsers\Api\Controllers\GenerateUsersController;
 use Flarum\Extend;
 
 return [

@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Imynely\GenerateUsers\Api\Controllers\GenerateUsersController;
+namespace Imynely\GenerateUsers\Api\Controllers;
 
 use Flarum\Http\RequestUtil;
 use Flarum\User\User;
