@@ -19,7 +19,7 @@ export default class GenerateUsersPage extends Component {
               <input
                 type="number"
                 value={this.count}
-                onChange={(e) => this.count = parseInt(e.target.value)}
+                oninput={(e) => this.count = parseInt(e.target.value)}
                 min="1"
                 max="100"
               />
@@ -38,6 +38,9 @@ export default class GenerateUsersPage extends Component {
   }
 
   generateUsers() {
+
+    console.log("Количество пользователей для генерации:", this.count);
+
     this.loading = true;
 
     app.request({
